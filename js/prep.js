@@ -22,6 +22,6 @@
         document.getElementById("demo1").innerHTML = 'Know salary information so you can negotiate proper salary. You can view salary information on <a href="https://www.glassdoor.com/index.htm" target="_blank">Glassdoor</a>. <br><br>It is important to prepare interview questions. <a href="https://www.job-hunt.org/recruiters/smart-job-interview-answers.shtml" target="_blank">View common interview questions here</a>.';
       }
       else {
-      document.getElementById("demo1").innerHTML = 'It is important to be prepared for interviews';
+      document.getElementById("demo1").innerHTML = 'It is important to be prepared for interviews. <br><br>Know the company. Visit the company website to learn more. <br><br>Know salary information so you can negotiate proper salary. You can view salary information on <a href="https://www.glassdoor.com/index.htm" target="_blank">Glassdoor</a>. <br><br>It is important to prepare interview questions. <a href="https://www.job-hunt.org/recruiters/smart-job-interview-answers.shtml" target="_blank">View common interview questions here</a>.';
       }
     }
