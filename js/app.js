@@ -392,7 +392,7 @@ const scenarios = {
     },
    s27: {
         content: {
-          c1: 'Interviewer: No, the range is not negotiable',
+          c1: 'Return to your job search and accept an offer that pays what you are worth!',
           c2: ''
         },
         choices: {
@@ -452,7 +452,7 @@ const scenarios = {
     },
    s31: {
         content: {
-          c1: 'Interview: We can work with that salary.',
+          c1: 'Interview: We can work with that.',
           c2: ''
         },
         choices: {
