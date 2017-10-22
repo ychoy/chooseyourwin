@@ -23,6 +23,9 @@ body {
   background-color: #e5f7df;
   background-repeat: no-repeat;
   margin: 0 auto;
+  h3 {
+    font-family: 'VT323', monospace;
+  }
 }
 
 /* .img-container h1 {
