@@ -493,14 +493,17 @@ const scenarioHTML = function (dataObject) {
             let story = dataObject[scene];
 
            return (
-            `<p>${story.content.c1}</p> 
+            `<div class="content-box">
+            <p>${story.content.c1}</p> 
              <br/>
              <p>${story.content.c2}</p>
              <br/>
              <div>${story.choices.c1.popupText}</div>
-             <div>${story.choices.c2.popupText}</div> `
+             <div>${story.choices.c2.popupText}</div> 
+             </div>
+             `
 
-            
+        
            )    
         }
     
