@@ -1,7 +1,9 @@
 <html xml:lang="en" lang="en">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Interview Preparation</title>
+<link rel="stylesheet" href="css/normalize.css">
 <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
 <style>
 body {
@@ -35,6 +37,7 @@ input[type="checkbox"]:checked + label span {
 </style>
 </head>
 <body>
+<div>
 <h1>Interview Preparation</h1>
 <form name="myform" action="#">
 <input type="checkbox" name="checkbox1" id="c1"/><label for="c1"><span></span>Company Research</label> <br><br>
@@ -44,7 +47,7 @@ input[type="checkbox"]:checked + label span {
 <input type="button" value="Continue" name="Mybutton"
 onclick="verifybox()" /></p>
 </form>
-
+</div>
 <div id="demo1" class="over"></div>
 <script type="text/javascript">
 //This is done to make the following JavaScript code compatible to XHTML. <![CDATA[
@@ -52,7 +55,7 @@ function verifybox()
 {
 if (document.myform.checkbox1.checked && document.myform.checkbox2.checked && document.myform.checkbox3.checked)
 {
-document.getElementById("demo1").innerHTML = 'You are prepared for the interview. <a href="">Next</a>';
+document.getElementById("demo1").innerHTML = 'You are prepared for the interview. <a href="s4.html">Next</a>';
 }
 else if (document.myform.checkbox1.checked && document.myform.checkbox2.checked)
 {
