@@ -1,0 +1,65 @@
+  body {
+    font-family: 'Roboto Mono', monospace;
+	background-color: black;
+	color: green;
+	margin: 10px 150px 100px 80px;
+  }
+.background {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url('images/HomePage.svg');
+  }
+  
+  /* unvisited link */
+	a:link {
+    color: white;
+	text-decoration: none;
+	font-weight: 900;
+}
+
+/* visited link */
+	a:visited {
+    color: white;
+	text-decoration: none;
+	font-weight: 900;
+}
+
+/* mouse over link */
+	a:hover {
+    color: white;
+	font-weight: 900;
+}
+
+/* selected link */
+	a:active {
+    color: white;
+	text-decoration: none;
+	font-weight: 900;
+}
+
+  input[type=button] {
+      background-color: black;
+      border: 10px solid green;
+      color: green;
+      padding: 16px 32px;
+      text-decoration: none;
+      margin: 4px 2px;
+      cursor: pointer;
+  }
+  input[type="checkbox"] {
+      display:none;
+  }
+  input[type="checkbox"] + label span {
+      display:inline-block;
+      width:100px;
+      height:100px;
+      margin:-2px 10px 0 0;
+      vertical-align:middle;
+      background:url(../images/check_radio_sheet.png) left top no-repeat;
+      cursor:pointer;
+  }
+  input[type="checkbox"]:checked + label span {
+      background:url(../images/check_radio_sheet.png) -100px top no-repeat;
+  }
