@@ -4,16 +4,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Interview Preparation</title>
 <link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" type="text/css" href="css/flexboxgrid.css">
 <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
 <style>
 body {
+	background-color: black;
+	color: green;
 	font-family: 'Roboto Mono', monospace;
 }
 
 input[type=button] {
-    background-color: white;
-    border: 10px solid black;
-    color: black;
+    background-color: black;
+    border: 10px solid green;
+    color: green;
     padding: 16px 32px;
     text-decoration: none;
     margin: 4px 2px;
@@ -37,7 +40,8 @@ input[type="checkbox"]:checked + label span {
 </style>
 </head>
 <body>
-<div>
+<div class="row">
+<div >
 <h1>Interview Preparation</h1>
 <form name="myform" action="#">
 <input type="checkbox" name="checkbox1" id="c1"/><label for="c1"><span></span>Company Research</label> <br><br>
@@ -59,15 +63,15 @@ document.getElementById("demo1").innerHTML = 'You are prepared for the interview
 }
 else if (document.myform.checkbox1.checked && document.myform.checkbox2.checked)
 {
-document.getElementById("demo1").innerHTML = 'It is important to prepare interview questions. ';
+document.getElementById("demo1").innerHTML = 'It is important to prepare interview questions. <a href="">Click here to see common interview questions</a>.';
 }
 else if (document.myform.checkbox1.checked && document.myform.checkbox3.checked)
 {
-document.getElementById("demo1").innerHTML = 'Knowing salary information so you can negotiate proper salary';
+document.getElementById("demo1").innerHTML = 'Knowing salary information so you can negotiate proper salary. <a href="">Go to Glassdoor</a> to learn the possible salary range for your job. ';
 }
 else if (document.myform.checkbox2.checked && document.myform.checkbox3.checked)
 {
-document.getElementById("demo1").innerHTML = 'Know the company';
+document.getElementById("demo1").innerHTML = 'Know the company. We recomend to check out thi';
 }
 else if (document.myform.checkbox1.checked)
 {
@@ -89,6 +93,6 @@ document.getElementById("demo1").innerHTML = 'It is important to be prepared for
 //]]>
 </script>
 
-
+</div>
 </body>
 </html>
