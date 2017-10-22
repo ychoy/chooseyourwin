@@ -18,7 +18,7 @@ body {
 
 .img-container {
   height: 100%;
-  background: url('../images/Home_Page.png');
+  background: url('../images/HomePage.png');
   background-size: contain;
   background-color: #e5f7df;
   background-repeat: no-repeat;
@@ -46,11 +46,16 @@ body {
   position: absolute; 
   right: 30px; 
   bottom: 10px;
-  background-color: #fff;
   font-size: 32px;
   text-align: center;
-  padding: 5px;
+  max-width: 250px;
+}
 
+.choices-btn {
+  margin-top: 25px;
+  background-color: #fff;  
+  padding: 5px;
+  border: 2px solid #000;
 }
 
 header {
@@ -83,16 +88,21 @@ header {
   background-image: url('../images/confidence_gap_chart.svg');
 }
 
-.s8 {
+.s8, .s9, .s9, .s10, .s11, .s12, .s12, .s13, .s14, .s15, .s16, .s17, .s18, .s19 {
   height: 100%;
   background-size: cover;
   background-image: url('../images/ChooseYourWin_InterviewinappropQA.png');
 }
 
-.s5, .s6 {
+.s5, .s6, .s20, .s21, .s22, .s23, .s24, .s25, .s26, .s28, .s29, .s30, .s31 {
   height: 100%;
   background-size: cover; 
-  background-image: url('../images/ChooseYourWin_QA.png')
+  background-image: url('../images/ChooseYourWin_QA.png');
+}
+.s27, .s32 { 
+  height: 100%;
+  background-size: cover;
+  background-image: url('../images/HomePage.png');
 }
 
 .content-box {
@@ -105,4 +115,5 @@ header {
   bottom: 5px;
   left: 10px;
   font-size: 24px;
+  max-width: 800px;
 }
