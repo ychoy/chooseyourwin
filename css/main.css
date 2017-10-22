@@ -89,10 +89,15 @@ header {
   background-image: url('../images/ChooseYourWin_InterviewinappropQA.png');
 }
 
-.s5, .s6, .s20, .s21, .s22, .s23, .s24, .s25, .s26, .s27, .s28, .s29, .s30, .s31, .s32 {
+.s5, .s6, .s20, .s21, .s22, .s23, .s24, .s25, .s26, .s28, .s29, .s30, .s31 {
   height: 100%;
   background-size: cover; 
-  background-image: url('../images/ChooseYourWin_QA.png')
+  background-image: url('../images/ChooseYourWin_QA.png');
+}
+.s27, .s32 { 
+  height: 100%;
+  background-size: cover;
+  background-image: url('../images/HomePage.png');
 }
 
 .content-box {
