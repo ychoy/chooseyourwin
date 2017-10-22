@@ -2,6 +2,8 @@
 
 An interactive game for users to navigate issues that women face in the workplace. 
 
+Demo the [game](https://yanyinchoy.com/chooseyourwin)
+
 # Current Features
 A user can play the game and navigate the recruitment and hiring process through the character, Rhae.
 
