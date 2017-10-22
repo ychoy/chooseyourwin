@@ -105,6 +105,21 @@ const scenarios = {
             }
             
         }
+    },
+    s8: {
+        content: {
+          c1: "Interviewer: Do you have any children?",
+          c2: "How do you respond?"
+        },
+        choices: {
+            c1: {
+                popupText: ""
+            },
+            c2: {
+                popupText: ""
+            }
+
+        }
     }
 }
 
