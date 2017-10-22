@@ -1,7 +1,7 @@
   function verifybox()
     {
       if (document.myform.checkbox1.checked && document.myform.checkbox2.checked && document.myform.checkbox3.checked) {
-        document.getElementById("demo1").innerHTML = 'You are prepared for the interview. <a href="s4.html">Next</a>';
+        document.getElementById("demo1").innerHTML = 'You are prepared for the interview. <a href="s5.html">Next</a>';
       }
       else if (document.myform.checkbox1.checked && document.myform.checkbox2.checked) {
         document.getElementById("demo1").innerHTML = 'It is important to prepare for interview questions. <a href="https://www.job-hunt.org/recruiters/smart-job-interview-answers.shtml" target="_blank">View common interview questions here</a>. ';
