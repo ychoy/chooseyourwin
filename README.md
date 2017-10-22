@@ -1,13 +1,13 @@
 # Choose Your Win
 
-An interactive game for users to navigate women in the workplace issues and know their rights. 
+An interactive game for users to navigate issues that women face in the workplace. 
 
 # Current Features
 A user can play the game and navigate the recruitment and hiring process through the character, Rhae.
 
 # Technologies:
 * HTML 
-* jQuery
+* JavaScript
 * CSS
 * flexboxgrid
 
