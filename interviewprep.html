@@ -6,10 +6,18 @@
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
 <link rel="stylesheet" href="css/normalize.css">
 <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-<style>
+<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet"><style>
   <!--TODO: Move the CSS into stylesheet -->
   body {
     font-family: 'Roboto Mono', monospace;
+  }
+
+  .background {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url('images/HomePage.svg');
   }
 
   input[type=button] {
@@ -39,7 +47,7 @@
 </style>
 </head>
 <body>
-  <div>
+  <div class="background">
     <form name="myform" action="#">
       <input type="checkbox" name="checkbox1" id="c1"/><label for="c1"><span></span>Company Research</label> <br><br>
       <input type="checkbox" name="checkbox2" id="c2"/><label for="c2"><span></span>Salary Research</label> <br><br>
