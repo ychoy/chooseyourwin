@@ -123,7 +123,7 @@ const scenarios = {
     },
     s9: {
         content: {
-          c1: 'You: "It sounds like you’re asking if I will be committed to the company and my job. I can assure you that I highly prioritize and value my work."',
+          c1: 'Rhae: "It sounds like you’re asking if I will be committed to the company and my job. I can assure you that I highly prioritize and value my work."',
           c2: ""
         },
         choices: {
@@ -138,7 +138,7 @@ const scenarios = {
     },
     s10: {
         content: {
-          c1: 'You: "I’m surprised to be asked that question, because I’ve not been asked that before. I don’t think it is relevant to the position I’m interviewing for."',
+          c1: 'Rhae: "I’m surprised to be asked that question, because I’ve not been asked that before. I don’t think it is relevant to the position I’m interviewing for."',
           c2: ""
         },
         choices: {
@@ -182,7 +182,7 @@ const scenarios = {
     },
   s13: {
         content: {
-          c1: 'You: What is diversity, inclusion and culture like?',
+          c1: 'Rhae: What is diversity, inclusion and culture like?',
           c2: ''
         },
         choices: {
@@ -212,7 +212,7 @@ const scenarios = {
     },
   s15: {
         content: {
-          c1: 'You: What is the ratio of women to men on my potential team?',
+          c1: 'Rhae: What is the ratio of women to men on my potential team?',
           c2: ''
         },
         choices: {
@@ -242,7 +242,7 @@ const scenarios = {
     },
   s17: {
         content: {
-          c1: 'You: “I have worked in many diverse groups. I’m confident I will be able to succeed in a variety of team settings.”',
+          c1: 'Rhae: “I have worked in many diverse groups. I’m confident I will be able to succeed in a variety of team settings.”',
           c2: ''
         },
         choices: {
@@ -257,7 +257,7 @@ const scenarios = {
     },
    s18: {
         content: {
-          c1: 'You: I’m surprised to be asked that question, because I’ve not been asked that before. I don’t think it is relevant to the position I’m interviewing for.',
+          c1: 'Rhae: I’m surprised to be asked that question, because I’ve not been asked that before. I don’t think it is relevant to the position I’m interviewing for.',
           c2: ''
         },
         choices: {
@@ -302,7 +302,7 @@ const scenarios = {
     },
    s21: {
         content: {
-          c1: "You: Let's talk about the salary range for this position.",
+          c1: "Rhae: Let's talk about the salary range for this position.",
           c2: ''
         },
         choices: {
@@ -332,7 +332,7 @@ const scenarios = {
     },
    s23: {
         content: {
-          c1: 'You: Wow, that surprises me. Based on my research of comparable positions, I would have expected the range to be $90,000 to $115,000. Is your range negotiable?',
+          c1: 'Rhae: Wow, that surprises me. Based on my research of comparable positions, I would have expected the range to be $90,000 to $115,000. Is your range negotiable?',
           c2: ''
         },
         choices: {
@@ -362,7 +362,7 @@ const scenarios = {
     },
    s25: {
         content: {
-          c1: 'You: I think this salary range is too low for the position, based on my research and experience. I have some other opportunities on the table.',
+          c1: 'Rhae: I think this salary range is too low for the position, based on my research and experience. I have some other opportunities on the table.',
           c2: ''
         },
         choices: {
@@ -377,7 +377,7 @@ const scenarios = {
     },
    s26: {
         content: {
-          c1: "You: I’m willing to work with that range if we can discuss benefits.",
+          c1: "Rhae: I’m willing to work with that range if we can discuss benefits.",
           c2: 'Benefits to discuss: paid travel time, family leave, flextime, telework, health insurance, retirement (401k), stock options'
         },
         choices: {
@@ -392,7 +392,7 @@ const scenarios = {
     },
    s27: {
         content: {
-          c1: 'Interviewer: No, the range is not negotiable',
+          c1: 'Return to your job search and accept an offer that pays what you are worth!',
           c2: ''
         },
         choices: {
@@ -407,7 +407,7 @@ const scenarios = {
     },
    s28: {
         content: {
-          c1: 'You: That is dissappointing. Take care.',
+          c1: 'Rhae: That is dissappointing. Take care.',
           c2: 'Return to the job search and find a job that pays you what you are worth!'
         },
         choices: {
@@ -437,7 +437,7 @@ const scenarios = {
     },
    s30: {
         content: {
-          c1: 'You: I know that your company is concerned about so-and-so challenges. I am confident that I can help you with that. At my previous job, I successfully delivered on so-and-so projects with my skills in such and such areas. Because of that, I think $110,000 is an appropriate starting salary.',
+          c1: 'Rhae: I know that your company is concerned about so-and-so challenges. I am confident that I can help you with that. At my previous job, I successfully delivered on so-and-so projects with my skills in such and such areas. Because of that, I think $110,000 is an appropriate starting salary.',
           c2: ''
         },
         choices: {
@@ -452,7 +452,7 @@ const scenarios = {
     },
    s31: {
         content: {
-          c1: 'Interview: We can work with that salary.',
+          c1: 'Interview: We can work with that.',
           c2: ''
         },
         choices: {
