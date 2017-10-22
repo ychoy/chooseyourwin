@@ -21,7 +21,7 @@ body {
   background: url('../images/Home_Page.png');
   background-size: contain;
   background-color: black;
-
+  background-repeat: no-repeat;
 }
 
 /* .img-container h1 {
