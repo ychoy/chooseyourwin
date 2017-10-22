@@ -4,6 +4,14 @@
 	color: green;
 	margin: 10px 150px 100px 80px;
   }
+.background {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url('images/HomePage.svg');
+  }
+  
   /* unvisited link */
 	a:link {
     color: white;
