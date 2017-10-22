@@ -20,11 +20,11 @@ A user can play the game and navigate the recruitment and hiring process through
 
 ## Made with <3 by
 
-* [Thelma Boamah](https://github.com/tboamah), Full Stack Developer
-* [Yan-Yin Choy](https://github.com/ychoy), Front End Developer
 * [Maliha Ahmed](https://github.com/mazahmed), Front End Developer & UX Researcher
+* [Thelma Boamah](https://github.com/tboamah), Full Stack Developer
+* [Lorin Camargo](https://www.github.com/lorincamargo), UX Researcher & UI Designer
+* [Yan-Yin Choy](https://github.com/ychoy), Front End Developer
 * [Emily Ramos](https://github.com/EngineerEmily), Front End Developer
-* [Lorin Camargo](https://www.linkedin.com/in/lorincamargo), UX Researcher & UI Designer
 
 # Thank yous
 * Kelly Jenkins-Pultz, Regional Administrator of Region 9 Office, Women's Bureau
