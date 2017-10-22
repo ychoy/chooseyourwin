@@ -1,0 +1,23 @@
+{
+  "name": "chooseyourwin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ychoy/chooseyourwin.git"
+  },
+  "author": "Yan-Yin Choy, Thelma Boamah, Emily Ramos, Lorin Camargo, Maliha Ahmed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ychoy/chooseyourwin/issues"
+  },
+  "homepage": "https://github.com/ychoy/chooseyourwin#readme",
+  "dependencies": {
+    "flexboxgrid": "^6.3.1",
+    "typed.js": "^2.0.6"
+  }
+}

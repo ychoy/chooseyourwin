@@ -1,0 +1,87 @@
+<html xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Interview Preparation</title>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
+<link rel="stylesheet" href="css/normalize.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+<style>
+  <!--TODO: Move the CSS into stylesheet -->
+  body {
+    font-family: 'Roboto Mono', monospace;
+  }
+
+  input[type=button] {
+      background-color: white;
+      border: 10px solid black;
+      color: black;
+      padding: 16px 32px;
+      text-decoration: none;
+      margin: 4px 2px;
+      cursor: pointer;
+  }
+  input[type="checkbox"] {
+      display:none;
+  }
+  input[type="checkbox"] + label span {
+      display:inline-block;
+      width:100px;
+      height:100px;
+      margin:-2px 10px 0 0;
+      vertical-align:middle;
+      background:url(images/check_radio_sheet.png) left top no-repeat;
+      cursor:pointer;
+  }
+  input[type="checkbox"]:checked + label span {
+      background:url(images/check_radio_sheet.png) -100px top no-repeat;
+  }
+</style>
+</head>
+<body>
+  <div>
+    <form name="myform" action="#">
+      <input type="checkbox" name="checkbox1" id="c1"/><label for="c1"><span></span>Company Research</label> <br><br>
+      <input type="checkbox" name="checkbox2" id="c2"/><label for="c2"><span></span>Salary Research</label> <br><br>
+      <input type="checkbox" name="checkbox3" id="c3"/><label for="c3"><span></span>Practice common interview questions</label> <br>
+      <p>
+        <input type="button" value="Continue" name="Mybutton"
+          onclick="verifybox()" />
+      </p>
+    </form>
+
+    <div id="demo1" class="over"></div>
+  </div>
+<script type="text/javascript">
+  //This is done to make the following JavaScript code compatible to XHTML. 
+  function verifybox()
+    {
+      if (document.myform.checkbox1.checked && document.myform.checkbox2.checked && document.myform.checkbox3.checked) {
+        document.getElementById("demo1").innerHTML = 'You are prepared for the interview. <a href="s4.html">Next</a>';
+      }
+      else if (document.myform.checkbox1.checked && document.myform.checkbox2.checked) {
+        document.getElementById("demo1").innerHTML = 'It is important to prepare interview questions. ';
+      } 
+      else if (document.myform.checkbox1.checked && document.myform.checkbox3.checked) {
+        document.getElementById("demo1").innerHTML = 'Knowing salary information so you can negotiate proper salary';
+      }
+      else if (document.myform.checkbox2.checked && document.myform.checkbox3.checked) {
+        document.getElementById("demo1").innerHTML = 'Know the company';
+      }
+      else if (document.myform.checkbox1.checked) {
+        document.getElementById("demo1").innerHTML = 'Knowing salary information so you can negotiate proper salary and it is important to prepare interview questions.';
+      }
+      else if (document.myform.checkbox2.checked) {
+        document.getElementById("demo1").innerHTML = 'Know the company and it is important to prepare interview questions.';
+      }
+      else if (document.myform.checkbox3.checked) {
+        document.getElementById("demo1").innerHTML = 'Know the company and knowing salary information so you can negotiate proper salary';
+      }
+      else {
+      document.getElementById("demo1").innerHTML = 'It is important to be prepared for interviews';
+      }
+    }
+</script>
+
+</body>
+</html>
