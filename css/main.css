@@ -18,7 +18,7 @@ body {
 
 .img-container {
   height: 100%;
-  background: url('../images/LittleMoment_by_Nosego_photoby_empiresevenstudios.jpg');
+  background: url('../images/image.png');
   background-size: cover;
   background-color: black;
 
@@ -56,12 +56,23 @@ header {
   background-size: cover;
 }
 
-.s1, .s2, .s3 {
-  background-image: url('../images/LittleMoment_by_Nosego_photoby_empiresevenstudios.jpg');
+.s1 {
+  height: 100%;
+  background-size: cover;
+  background-image: url('../images/ChooseYourWin_TheSearch_color.svg');
+} 
+
+.s2, .s3 {
+  height: 100%;
+  background-size: cover;
+  background-image: url('../images/ChooseYourWin_JobApplication.svg');
 }
 .s4 {
+  height: 100%;
+  background-size: cover;
   background-image: url('../images/confidence_gap_chart.svg');
 }
+.s5, .s6, .s8, {
+  background-image: url('../images/ChooseYourWin_InterviewQA.png');
 
-.s5 {
 }
