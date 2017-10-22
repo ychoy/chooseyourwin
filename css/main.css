@@ -1,0 +1,39 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+}
+/*
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+*/
+
+.img-container {
+  //background-color: black;
+  width: 100vw;
+  height: 100vh;
+  background: url('../images/LittleMoment_by_Nosego_photoby_empiresevenstudios.jpg');
+  background-size: cover;
+  background-color: black;
+
+  h1 {
+    color: white;
+  }
+
+}
+
+.img-caption {
+  min-height: 10em;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 25px;
+  padding-top: 50px;
+}
+
+.button-container {
+  height: 50px;
+  width: 100px;
+  position: absolute; 
+  right: 5px; 
+  bottom: 5px; 
+}
