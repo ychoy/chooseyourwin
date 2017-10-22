@@ -77,11 +77,11 @@ header {
 .s8 {
   height: 100%;
   background-size: cover;
-  background-image: url('../images/ChooseYourWin_InterviewQA.png');
+  background-image: url('../images/ChooseYourWin_InterviewinappropQA.png');
 }
 
 .s5, .s6 {
   height: 100%;
   background-size: cover; 
-  background-image: url('../images/ChooseYourWin_QA.svg')
+  background-image: url('../images/ChooseYourWin_QA.png')
 }
