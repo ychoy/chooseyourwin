@@ -76,3 +76,14 @@ header {
   background-image: url('../images/ChooseYourWin_InterviewQA.png');
 
 }
+
+.content-box {
+  background: #fff;
+  display: inline-block;
+  border: 5px dashed #000;
+  padding: 20px;
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  font-size: 20px;
+}
